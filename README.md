@@ -1,1 +1,1 @@
-This project represents my portfolio. Please visit <a href="shannonadair.com"> shannonadair.com </a> to see the demo version. 
+This project represents my portfolio. Please visit <a href="www.shannonadair.com"> shannonadair.com </a> to see the demo version. 
