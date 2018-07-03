@@ -8,8 +8,9 @@
     height: 34px;
 }
 
-.contact img{
+.smicons{
     max-height: 50px;
+    margin: 15px;
 }
 
 .info{

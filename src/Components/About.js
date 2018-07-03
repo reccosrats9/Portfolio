@@ -6,7 +6,7 @@ export default () => {
         <div className='about'>
             <h2>About Me</h2>
             <div className='info' >
-                <img src={require("./Logos/Professional.JPG")} alt="" />
+                <img src={require("./Logos/Professional.JPG")} alt="" className='me' />
                 <div>
                     <h5>
                         Hi! I'm Shannon Adair, Registered Dietitian and wellness guru turned web developer.
