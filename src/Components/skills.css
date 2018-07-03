@@ -1,0 +1,36 @@
+.skills{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills img{
+	max-height: 80px;
+}
+
+.skills div{
+	height: 120px;
+	width: 100px;
+	margin: 15px;
+	text-align: center;
+	animation: fadein 4s forwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+div h5{
+	font-weight: bold;
+}
+
+.allSkills h2{
+    font-size: 2em;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), url("http://paperlief.com/images/smooth-gold-foil-texture-wallpaper-2.jpg") repeat;
+    background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+	height: 34px;
+}

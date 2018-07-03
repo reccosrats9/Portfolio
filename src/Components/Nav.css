@@ -1,0 +1,87 @@
+.header{
+    /* height: 300px; */
+    width: 85vw;
+    margin: auto;
+    background: rgba(167,173,186, 0.75);
+    border-radius: 5px;
+}
+
+.header h1{
+    /* color: #232B2B; */
+    font-size: 4em;
+    letter-spacing: .15em;
+    padding: 40px;
+    margin-bottom: -20px;
+    
+}
+
+.header h2{
+    color: #232B2B;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.header h3{
+    color: #232B2B;
+    font-size: 1.5em;
+    padding: 20px; 
+}
+
+.header h4{
+    color: #232B2B;
+    font-size: 1.5em;
+    padding: 20px; 
+}
+
+.header h3:hover{
+   animation: grow 0.5s forwards; 
+}
+
+@keyframes grow{
+  0% {
+    font-size:1.5em;;
+  }
+  /* 50% {
+font-size:1.75em;
+  } */
+  100% {
+    font-size:2em;
+    font-weight: bolder;
+  }
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.header .Link{
+    text-decoration: none;
+}
+
+
+.typewriter {
+    overflow: hidden;
+     /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #232B2B; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret 0.3077s step-end 10 forwards;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 82.5% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke; }
+  }

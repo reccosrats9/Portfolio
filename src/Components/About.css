@@ -1,0 +1,29 @@
+.info img{
+    height: 330px;
+    width: 221.63px;
+    float: left ;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.info h5{
+    margin: 15px;
+    text-align: left;
+    animation: fadein 4s forwards;
+}
+
+
+.about h2{
+    font-size: 2em;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), url("http://paperlief.com/images/smooth-gold-foil-texture-wallpaper-2.jpg") repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    height: 34px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

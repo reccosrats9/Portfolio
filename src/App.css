@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans|Raleway+Dots|Raleway:800|Rubik:700');
+
+.App{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-image: url('http://healthytipsforyou.info/wp-content/uploads/2017/11/whitewash-wood-wallpaper-white-washed-wood-walls-whitewash-wood-texture-room-wall-murals-whitewash-wood-texture-room-white-washed-wood-plank-walls-images-of-white-washed-wood-walls.jpg');
+  /* background-image: url('http://getwallpapers.com/wallpaper/full/c/6/5/96113.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150vh;
+  width: 100%;
+  z-index: -1;
+}
+
+h1{
+font-family: 'Rubik', sans-serif;
+}
+
+.box{
+	position: relative;
+	width: 53.5vw;
+	height: 100%;
+	padding: 30px;
+    margin: 0 auto;
+    margin-left: 27.5vw;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.box:before, .box:after
+{
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+} 
+
+.box:after
+{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
