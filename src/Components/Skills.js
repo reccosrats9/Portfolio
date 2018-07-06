@@ -47,6 +47,14 @@ export default () => {
                     <h5>Postman</h5>
                 </div>
                 <div>
+                    <img src={require("./Logos/REST.png")} alt="" />
+                    <h5>RESTful APIs</h5>
+                </div>
+                <div>
+                    <img src={require("./Logos/auth.png")} alt="" />
+                    <h5>Auth0</h5>
+                </div>
+                <div>
                     <img src={require("./Logos/git.png")} alt="" />
                     <h5>Git</h5>
                 </div>

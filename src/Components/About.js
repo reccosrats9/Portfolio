@@ -5,7 +5,7 @@ export default () => {
     return (
         <div className='about'>
             <h2>About Me</h2>
-            <div className='info' >
+            <div className='info' >    
                 <img src={require("./Logos/Professional.JPG")} alt="" className='me' />
                 <div>
                     <h5>

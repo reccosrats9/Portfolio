@@ -10,8 +10,10 @@
 
 .proj h3{
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin: 10px;
+    text-align: center;
+    /* text-decoration: underline; */
 }
 
 li{
@@ -30,4 +32,18 @@ li{
 a{
     text-decoration: none;
     color: #232B2B;
+}
+
+.projHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projLinks a{
+    margin-left: 15px;
+}
+
+.projLinks{
+    display: flex;
 }

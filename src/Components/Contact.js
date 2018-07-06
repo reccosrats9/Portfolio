@@ -5,7 +5,7 @@ export default () => {
   return (
     <div className='contact' >
           <h2>Contact</h2>
-          <div className='info'>
+          <div className='contactInfo'>
               <h3>Thanks for your interest! Links to my github, LinkedIn, and email are below. If you'd like to contact me, shoot me a message on LinkedIn or send me an email and I'll get back to you as soon as I can!</h3>
               <div className='contactIcons' >
                   <a href="https://github.com/reccosrats9"
