@@ -54,7 +54,7 @@ export default () => {
                     alt: 'Admin View'
                 }
             ],
-            tech: '',
+            tech: 'REACT | NODE | POSTGRES | BCRYPT | MOMENT | MATERIAL-UI',
             details: [
                 'Worked with team to develop electronic medical charting system with minimal clicks and attractive page views.',
                 'Developed ability for users to schedule patient visits (custom built scheduler with Moment), track visits, conditions, allergies, medical devices, medications, family medical history, and lab/imaging results.',
