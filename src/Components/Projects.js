@@ -31,6 +31,28 @@ export default () => {
                 'Scheduled API calls to to Skyscanner using Cron; identified matches to user specifications via javascript and notified users via text (Twilio) up to once a week per route match.',
                 "Winner of “Most Technical” award."
             ]
+        }, {
+            name: 'Speed Reader',
+            live: 'http://speedreader.surge.sh/',
+            github: 'https://github.com/reccosrats9/speed-reader',
+            photos: [
+                {
+                    src: require('./ProjectPhotos/SpeedReaderHome.png'),
+                    alt: 'Home View'
+                },
+                {
+                    src: require('./ProjectPhotos/SpeedReaderActive.png'),
+                    alt: 'View While Active'
+                },
+                {
+                    src: require('./ProjectPhotos/SpeedReaderPaused.png'),
+                    alt: 'View While Paused'
+                },
+            ],
+            tech: 'REACT | RECURSION | JAVASCRIPT', 
+            details: [
+                'Allows users to input any text to be read at a selected speed.', 'Users may choose a speed in words per minute, and change speed during reading as desired', 'Users may pause and resume reading during playback'
+            ]
         },
         {
             name: 'MedTel',
